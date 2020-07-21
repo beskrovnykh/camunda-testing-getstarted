@@ -15,8 +15,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.task;
 import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.complete;
 
-
-
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class MainApplicationTest extends AbstractProcessEngineRuleTest {
