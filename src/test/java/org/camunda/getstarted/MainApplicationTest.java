@@ -19,10 +19,10 @@ import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.complet
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class SimpleProcessTest extends AbstractProcessEngineRuleTest {
+public class MainApplicationTest extends AbstractProcessEngineRuleTest {
 
   @Autowired
-  public RuntimeService runtimeService;
+  private RuntimeService runtimeService;
 
   @Test
   @Deployment(resources = {"process.bpmn"})
