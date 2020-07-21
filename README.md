@@ -1,4 +1,4 @@
-# camunda engine spring boot unit test template
+# camunda spring boot unit test template
 
 This git repository contains a simple example of how to write a unit tests for camunda bpm using spring boot.
 You can use it for reporting bugs or asking questions in the forums.
