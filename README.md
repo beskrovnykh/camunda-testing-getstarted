@@ -25,7 +25,6 @@ The project contains the following files:
     │           ├── application.yaml (3)
     │           └── logback-test.xml
 
-```
 Explanation:
 
 * (1) A java class annotated with @SpringBootTest containing a JUnit Test. It uses the `AbstractProcessEngineRuleTest` for bootstrapping the process engine, as well as [camunda-bpm-assert][assert] to make your test life easier.
